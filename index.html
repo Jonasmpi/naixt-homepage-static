@@ -24,8 +24,15 @@
         }
 
         .logo {
-            font-size: 48px;
             margin-bottom: 30px;
+            width: 100%;
+            max-width: 400px;
+            min-width: 200px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
         }
 
         .content {
@@ -79,6 +86,27 @@
 
         a:hover {
             text-decoration: underline;
+        }
+
+        @media (min-width: 600px) {
+            .logo {
+                max-width: 300px;
+                /* Adjust for larger screens */
+            }
+        }
+
+        @media (min-width: 768px) {
+            .logo {
+                max-width: 400px;
+                /* Adjust for larger screens */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                margin-top: 30px;
+                /* Add top margin for mobile devices */
+            }
         }
     </style>
 </head>
