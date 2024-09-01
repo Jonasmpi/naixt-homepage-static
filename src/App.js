@@ -74,10 +74,9 @@ const App = () => {
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 <Link to="/" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Home</Link>
-                <Link to="/services" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Services</Link>
-                <Link to="/about" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">About</Link>
-                <Link to="/blog" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Blog</Link>
-                <Link to="/contact" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Contact</Link>
+                <Link to="#services" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Services</Link>
+                <Link to="https://naixt-technologiesde.beehiiv.com/subscribe" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Blog</Link>
+                <Link to="#pricing" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Contact</Link>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
                 <button
