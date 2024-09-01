@@ -47,7 +47,6 @@ const LandingPage = () => {
       <WhyHireUsSection />
       <ServicesSection />
       <ImageAccordion />
-      <AIConsultancyGlobe />
       <PricingSection />
     </>
   );
