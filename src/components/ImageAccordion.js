@@ -53,7 +53,7 @@ const ImageAccordion = () => {
     };
 
     return (
-        <section className="py-16 bg-white">
+        <section id="experience" className="py-16 bg-white">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-8">
                     <h2 className="text-base text-[#010C80] font-semibold tracking-wide uppercase">CURRENT & PAST</h2>
