@@ -68,29 +68,29 @@ const ServicesSection = () => {
                 <div className="space-y-12">
                     {services.map((service, index) => (
                         <div key={index} className="border-t border-gray-300 pt-8">
-                            <div className="flex flex-col md:flex-row items-center justify-between">
-                                <div className="md:flex md:items-start md:space-x-6 w-full">
-                                    <div className="flex flex-col items-start">
-                                        <span className="text-sm font-medium text-gray-500">{service.number}</span>
-                                        <h3 className="text-5xl font-light text-[#010C80] ">{service.title}</h3>
-                                    </div>
+                            <div className="flex flex-col md:flex-row md:items-start justify-between space-y-4 md:space-y-0">
+                                <div className="md:w-2/3 flex flex-col justify-start">
+                                    <span className="text-sm font-medium text-gray-500">{service.number}</span>
+                                    <h3 className="text-5xl font-light text-[#010C80]">{service.title}</h3>
                                 </div>
-                                <div className="flex items-center justify-between w-full md:w-auto mt-4 md:mt-0 cursor-pointer" onClick={() => handleToggle(index)}>
-                                    <p className="text-gray-500 text-lg max-w-md">
+                                <div className="md:w-1/3 flex flex-col items-start justify-start">
+                                    <p className="text-gray-500 text-lg mb-4">
                                         {service.description}
                                     </p>
-                                    {openIndex === index ? (
-                                        <FaChevronUp className="ml-6 text-[#010C80]" size={50} />
-                                    ) : (
-                                        <FaChevronDown className="ml-6 text-[#010C80]" size={50} />
-                                    )}
+                                    <button
+                                        onClick={() => handleToggle(index)}
+                                        className="text-[#010C80] flex items-center hover:underline"
+                                    >
+                                        {openIndex === index ? "Hide details" : "Show details"}
+                                        {openIndex === index ? <FaChevronUp className="ml-2" /> : <FaChevronDown className="ml-2" />}
+                                    </button>
                                 </div>
                             </div>
                             {openIndex === index && (
-                                <div className="mt-4">
-                                    <ul className="list-disc list-inside text-gray-600 pl-10"> {/* Added pl-10 for indentation */}
+                                <div className="mt-8 w-full">
+                                    <ul className="list-disc list-inside text-gray-600 space-y-4">
                                         {service.details.map((detail, i) => (
-                                            <li key={i} className="mt-2">
+                                            <li key={i} className="text-lg">
                                                 {detail}
                                             </li>
                                         ))}

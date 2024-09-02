@@ -57,7 +57,7 @@ const App = () => {
     <Router>
       <div className="bg-white text-black min-h-screen">
         {/* Navigation */}
-        <nav className="bg-transparent absolute top-0 left-0 right-0 z-50">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-90 shadow-md">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16 items-center">
               <Link to="/" className="flex items-center">
@@ -71,12 +71,10 @@ const App = () => {
                 <span className="font-bold text-xl text-black">nAIxt Technologies</span>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-
                 <a href="/" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Home</a>
                 <a href="#services" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Services</a>
                 <a href="https://naixt-technologiesde.beehiiv.com/" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Blog</a>
                 <a href="#pricing" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Contact</a>
-
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
                 <button
