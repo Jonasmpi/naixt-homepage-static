@@ -53,6 +53,7 @@ const LandingPage = () => {
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <Router>
       <div className="bg-white text-black min-h-screen">
@@ -76,7 +77,7 @@ const App = () => {
                 <a href="https://naixt-technologiesde.beehiiv.com/" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Blog</a>
                 <a href="#pricing" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Contact</a>
               </div>
-              <div className="-mr-2 flex items-center sm:hidden">
+              <div className="sm:hidden">
                 <button
                   onClick={() => setMenuOpen(!menuOpen)}
                   className="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#010C80]"
@@ -86,6 +87,19 @@ const App = () => {
               </div>
             </div>
           </div>
+
+          {/* Mobile menu, show/hide based on menu state */}
+          {menuOpen && (
+            <div className="sm:hidden">
+              <div className="px-2 pt-2 pb-3 space-y-1">
+                <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Home</a>
+                <a href="#services" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Services</a>
+                <a href="#experience" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Experience</a>
+                <a href="https://naixt-technologiesde.beehiiv.com/" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Blog</a>
+                <a href="#pricing" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Contact</a>
+              </div>
+            </div>
+          )}
         </nav>
 
         <Routes>
