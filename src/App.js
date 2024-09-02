@@ -7,6 +7,7 @@ import ServicesSection from './components/Services.js';
 import PricingSection from './components/Pricing.js';
 import Imprint from './components/Imprint.js';
 import PrivacyPolicy from './components/PrivacyNotice.js';
+import ExperienceByTechnology from './components/ExperienceTechnology.js';
 
 const LandingPage = () => {
   return (
@@ -44,6 +45,7 @@ const LandingPage = () => {
       <WhyHireUsSection />
       <ServicesSection />
       <ImageAccordion />
+      <ExperienceByTechnology></ExperienceByTechnology>
       <PricingSection />
     </>
   );

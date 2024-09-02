@@ -33,6 +33,39 @@ const industries = [
     },
 ];
 
+const aiApplications = [
+    {
+        title: 'Computer Vision',
+        description: 'Leveraging AI to interpret and understand visual data.',
+        image: '/assets/computer_vision.png',
+    },
+    {
+        title: 'Generative AI',
+        description: 'AI techniques to generate new content and ideas from existing data.',
+        image: '/assets/genai.png',
+    },
+    {
+        title: 'Forecasting',
+        description: 'Using AI to predict future trends based on historical data.',
+        image: '/assets/forecasting.png',
+    },
+    {
+        title: 'Anomaly Detection',
+        description: 'Identifying unusual patterns or behaviors in data using AI.',
+        image: '/assets/anomaly_detection.png',
+    },
+    {
+        title: 'Optimization',
+        description: 'AI-driven techniques to enhance efficiency and effectiveness.',
+        image: '/assets/optimization.png',
+    },
+    {
+        title: 'Natural Language Processing',
+        description: 'AI that helps machines understand and respond to human language.',
+        image: '/assets/nlp.png',
+    },
+];
+
 const ImageAccordion = () => {
     const [activeIndex, setActiveIndex] = useState(null);
     const [isMobile, setIsMobile] = useState(false);
@@ -58,7 +91,7 @@ const ImageAccordion = () => {
                 <div className="text-center mb-8">
                     <h2 className="text-base text-[#010C80] font-semibold tracking-wide uppercase">CURRENT & PAST</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        Experience
+                        Experience by Industry
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
                         Over the years, we have helped players in a wide range of industries gain traction for their AI efforts. Developing the right AI strategy means understanding the business of our partners.
