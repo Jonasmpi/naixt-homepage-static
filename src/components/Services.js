@@ -7,9 +7,9 @@ const services = [
         title: 'AI Strategy Consulting',
         description: 'Develop comprehensive AI roadmaps aligned with your business objectives and industry trends.',
         details: [
-            'Identify key AI opportunities for your business.',
-            'Create a strategic AI implementation roadmap.',
-            'Align AI initiatives with overall business goals.',
+            'Discover High-Impact AI Opportunities: Identify and leverage AI technologies that can transform your business and give you a competitive edge.',
+            'Tailored AI Roadmaps: Develop custom AI implementation strategies that align with your business goals and market trends.',
+            'Strategic Alignment with Business Objectives: Ensure every AI initiative is fully integrated with your broader business strategy, driving measurable results and sustainable growth.',
         ],
     },
     {
@@ -17,19 +17,20 @@ const services = [
         title: 'AI Project Lead',
         description: 'Guide the development and implementation of AI projects from concept to deployment.',
         details: [
-            'Design and prototype AI solutions.',
-            'Manage full lifecycle development of AI projects.',
-            'Ensure smooth deployment and integration with existing systems.',
+            'End-to-End Project Management: Oversee the entire AI project lifecycle, from initial concept through to full deployment.',
+            "Innovative AI Design & Prototyping: Create groundbreaking AI solutions that drive business success.",
+            'Proven Leadership: Lead your AI initiatives with expertise, ensuring on-time, on-budget delivery and optimal outcomes.',
+            'Seamless Integration: Ensure flawless integration of AI technologies and concepts into your current systems, maximizing efficiency and performance.',
         ],
     },
     {
         number: '03',
         title: 'AI Management Consulting',
-        description: 'Provide ongoing support and optimization for AI initiatives to ensure long-term success and ROI.',
+        description: 'Maximize ROI with Continuous AI Excellence.',
         details: [
-            'Regular performance reviews of AI initiatives.',
-            'Optimize AI systems for cost-efficiency and performance.',
-            'Provide ongoing training and support to your team.',
+            'Proactive Performance Optimization: Regularly review and refine your AI initiatives to enhance efficiency, effectiveness, and profitability.',
+            'Cost-Effective AI Management: Optimize your AI systems to ensure maximum performance while controlling costs, delivering the best value for your investment.',
+            'mpower Your Team: Provide ongoing training and hands-on support to your team, ensuring they are equipped to leverage AI technologies for sustained success.',
         ],
     },
     {
@@ -37,10 +38,10 @@ const services = [
         title: 'Executive AI Education',
         description: 'Offer tailored AI education programs for C-level executives to enhance decision-making in AI investments.',
         details: [
-            'Customized AI workshops for executives.',
-            'Provide insights on AI trends and best practices.',
-            'Enhance decision-making capabilities with AI knowledge.',
-            'Recurring informative meetings and briefings about the fast changing world of AI'
+            'Exclusive Insights on AI Trends for your industry: Stay ahead of the curve with expert-led sessions on the latest AI developments and industry best practices.',
+            'Strategic Decision-Making Enhancement: Equip your leadership team with the AI knowledge needed to make informed, impactful decisions.',
+            'Ongoing AI Intelligence Briefings: Regular updates and briefings to keep your executive team informed about the dynamic landscape of AI, ensuring continuous leadership excellence.',
+            'Tailored AI Masterclasses for Executives: Customized workshops designed specifically for C-level leaders to master AI strategies that drive business growth.'
         ],
     },
 ];
