@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import AIConsultancyGlobe from "./components/Globe.js";
 import WhyHireUsSection from './components/WhyHireUsSection';
 import ImageAccordion from './components/ImageAccordion.js';
 import ServicesSection from './components/Services.js';
@@ -18,7 +17,7 @@ const LandingPage = () => {
           <img
             className="w-full h-full object-cover"
             src="/assets/background_hero_compressed.webp"
-            alt="Background image showing clouds"
+            alt="Background showing clouds with techlines"
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,_#ffffff_0%,_#ffffff_40%,_rgba(255,255,255,0)_70%)]"></div>
           <div className="absolute inset-0 bg-[linear-gradient(0deg,_#ffffff_0%,_rgba(255,255,255,0)_70%)]"></div>
@@ -34,9 +33,7 @@ const LandingPage = () => {
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-start">
                 <div className="rounded-md shadow">
-                  <Link to="/contact" className="w-full flex items-center justify-center px-8 py-3 border border-[#010C80] text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10">
-                    Get Started
-                  </Link>
+                  <a href="#pricing" className="w-full flex items-center justify-center px-8 py-3 border border-[#010C80] text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10">Contact</a>
                 </div>
               </div>
             </div>
@@ -141,7 +138,7 @@ const App = () => {
 
             {/* Social Media Links */}
             <div className="mt-8 flex justify-center space-x-6 md:order-2">
-              <a href="#" className="text-gray-400 hover:text-gray-500">
+              <a href="https://www.linkedin.com/company/naixt-technologies" className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">LinkedIn</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path fillRule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clipRule="evenodd" />
