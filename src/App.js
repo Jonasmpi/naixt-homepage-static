@@ -32,9 +32,16 @@ const LandingPage = () => {
               <p className="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Expert Consulting for AI Strategy, Development, and Management Tailored to Your Business Needs.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-start">
+              <div className="mt-5 sm:mt-8 flex flex-col sm:flex-row sm:space-x-4">
+                <div className="rounded-md shadow mb-4 sm:mb-0">
+                  <a href="#pricing" className="w-full flex items-center justify-center px-8 py-3 border border-[#010C80] text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10">
+                    Contact
+                  </a>
+                </div>
                 <div className="rounded-md shadow">
-                  <a href="#pricing" className="w-full flex items-center justify-center px-8 py-3 border border-[#010C80] text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10">Contact</a>
+                  <a href="#services" className="w-full flex items-center justify-center px-8 py-3 border border-[#010C80] text-base font-medium rounded-md text-[#010C80] bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                    Our Services
+                  </a>
                 </div>
               </div>
             </div>
