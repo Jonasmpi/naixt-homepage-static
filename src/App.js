@@ -8,6 +8,7 @@ import PricingSection from './components/Pricing.js';
 import Imprint from './components/Imprint.js';
 import PrivacyPolicy from './components/PrivacyNotice.js';
 import ExperienceByTechnology from './components/ExperienceTechnology.js';
+import ThankYouForm from './components/ThankYouForm.js';
 
 const LandingPage = () => {
   return (
@@ -113,6 +114,7 @@ const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/imprint" element={<Imprint />} />
           <Route path="/privacy-notice" element={<PrivacyPolicy />} />
+          <Route path="/thank-you-form" element={<ThankYouForm />} />
           {/* Add more routes here as needed */}
         </Routes>
 
@@ -123,7 +125,7 @@ const App = () => {
               {/* Company Info */}
               <div className="flex items-start text-center md:text-left flex-1">
                 <img
-                  src="/assets/naixt_logo_centered.png"
+                  src="/assets/naixt_logo_centered.webp"
                   alt="nAIxt Technologies Logo"
                   className="h-8 mr-3 mt-5"
                 />
