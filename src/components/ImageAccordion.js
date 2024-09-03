@@ -4,67 +4,35 @@ const industries = [
     {
         title: 'Logistics',
         description: 'We provide AI solutions for the healthcare industry, improving patient outcomes and operational efficiency.',
-        image: '/assets/industry_logistics_2.png',
+        image: '/assets/industry_logistics_2.webp',
     },
     {
         title: 'Manufacturing',
         description: 'Our AI-driven financial services help businesses enhance decision-making and optimize performance.',
-        image: '/assets/industry_manufacturing.png',
+        image: '/assets/industry_manufacturing.webp',
     },
     {
         title: 'Procurement',
         description: 'We transform retail with AI, delivering personalized experiences and increasing customer loyalty.',
-        image: '/assets/industry_procurement.png',
+        image: '/assets/industry_procurement.webp',
     },
     {
         title: 'Energy',
         description: 'Our AI solutions streamline manufacturing processes, boosting productivity and reducing costs.',
-        image: '/assets/industry_energy.png',
+        image: '/assets/industry_energy.webp',
     },
     {
         title: 'Space',
         description: 'We empower the energy sector with AI to optimize resource use and improve sustainability.',
-        image: '/assets/industry_remote_sensing.png',
+        image: '/assets/industry_remote_sensing.webp',
     },
     {
         title: 'Quality Control',
         description: 'We empower the energy sector with AI to optimize resource use and improve sustainability.',
-        image: '/assets/industry_quality_control.png',
+        image: '/assets/industry_quality_control.webp',
     },
 ];
 
-const aiApplications = [
-    {
-        title: 'Computer Vision',
-        description: 'Leveraging AI to interpret and understand visual data.',
-        image: '/assets/computer_vision.png',
-    },
-    {
-        title: 'Generative AI',
-        description: 'AI techniques to generate new content and ideas from existing data.',
-        image: '/assets/genai.png',
-    },
-    {
-        title: 'Forecasting',
-        description: 'Using AI to predict future trends based on historical data.',
-        image: '/assets/forecasting.png',
-    },
-    {
-        title: 'Anomaly Detection',
-        description: 'Identifying unusual patterns or behaviors in data using AI.',
-        image: '/assets/anomaly_detection.png',
-    },
-    {
-        title: 'Optimization',
-        description: 'AI-driven techniques to enhance efficiency and effectiveness.',
-        image: '/assets/optimization.png',
-    },
-    {
-        title: 'Natural Language Processing',
-        description: 'AI that helps machines understand and respond to human language.',
-        image: '/assets/nlp.png',
-    },
-];
 
 const ImageAccordion = () => {
     const [activeIndex, setActiveIndex] = useState(null);
