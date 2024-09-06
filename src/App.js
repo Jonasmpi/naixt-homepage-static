@@ -82,7 +82,7 @@ const App = () => {
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 <a href="/" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Home</a>
                 <a href="#services" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Services</a>
-                <a href="https://naixt-technologiesde.beehiiv.com/" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Blog</a>
+                <a href="https://blog.naixt-technologies.de/" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Blog</a>
                 <a href="#pricing" className="text-black hover:text-[#010C80] px-3 py-2 text-sm font-medium">Contact</a>
               </div>
               <div className="sm:hidden">
