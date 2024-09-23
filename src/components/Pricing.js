@@ -7,12 +7,9 @@ const PricingSection = () => {
         <section id="pricing" className="py-16 bg-white">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl font-extrabold text-gray-900">Pricing & Confidentiality</h2>
+                    <h2 className="text-3xl font-extrabold text-gray-900">Get in Touch </h2>
                 </div>
                 <div className="max-w-3xl mx-auto text-gray-700 space-y-3">
-                    <p>
-                        Our engagements typically begin at €16,000, with pricing tailored to the specific outcomes we aim to achieve.
-                    </p>
                     <p>
                         To get started, fill out this form to schedule a meeting with us. If you have any questions, feel free to reach out at <a href="mailto:info@naixt-technologies.de" className="text-[#010C80] underline">info@naixt-technologies.de</a>.
                     </p>
