@@ -20,7 +20,7 @@ const PricingSection = () => {
                 <div className="mt-12 flex justify-center">
                     <a
                         href="https://tally.so/r/nrVM92"
-                        className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10"
+                        className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10 plausible-event-name=Contact+Click"
                     >
                         Schedule a Meeting
                     </a>
