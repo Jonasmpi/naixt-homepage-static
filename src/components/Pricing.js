@@ -9,17 +9,17 @@ const ConsultationSection = () => {
                 <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
                     <p className="text-sm font-medium text-gray-600">Get in Touch with us</p>
                     <h2 className="text-4xl font-extrabold text-gray-900 mt-4 leading-tight">
-                        Elevate Your AI Strategy with Expert Guidance
+                        Elevate Your AI with Expert Strategy Guidance
                     </h2>
                     <p className="text-lg text-gray-700 mt-4">
-                        Discover how our AI consulting services can drive your business forward. Schedule a no-obligation consultation with our experts to explore how AI can optimize your strategy, projects, and investments.
+                        Discover how our AI consulting services can drive you and the business forward. Arrange your free initial consultation with one of our AI experts to explore how AI can optimize your strategy, projects, and investments.
                     </p>
                     <div className="mt-8">
                         <a
                             href="https://tally.so/r/nrVM92"
                             className="inline-block px-8 py-4 font-medium rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-transform transform hover:scale-105 shadow-lg hover:shadow-xl duration-300"
                         >
-                            Book Your Free Consultation
+                            Book Your Free Intitial Consultation
                         </a>
                     </div>
                 </div>
