@@ -2,7 +2,7 @@ import React from 'react';
 
 const ConsultationSection = () => {
     return (
-        <section id="consultation" className="py-16">
+        <section id="ContactUs" className="py-16">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
 
                 {/* Left Side: Main Content */}
