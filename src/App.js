@@ -35,7 +35,7 @@ const LandingPage = () => {
               </p>
               <div className="mt-5 sm:mt-8 flex flex-col sm:flex-row sm:space-x-4">
                 <div className="rounded-md shadow mb-4 sm:mb-0">
-                  <a href="#pricing" className="w-full flex items-center justify-center px-8 py-3 border border-[#010C80] text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10">
+                  <a href="#ContactUs" className="w-full flex items-center justify-center px-8 py-3 border border-[#010C80] text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10">
                     Contact
                   </a>
                 </div>
