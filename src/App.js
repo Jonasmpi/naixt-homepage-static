@@ -106,7 +106,7 @@ const App = () => {
                 <a href="#services" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Services</a>
                 <a href="#experience" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Experience</a>
                 <a href="https://naixt-technologiesde.beehiiv.com/" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Blog</a>
-                <a href="#pricing" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Contact</a>
+                <a href="#ContactUs" className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-[#010C80] hover:bg-gray-50">Contact</a>
               </div>
             </div>
           )}
