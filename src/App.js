@@ -9,6 +9,7 @@ import Imprint from './components/Imprint.js';
 import PrivacyPolicy from './components/PrivacyNotice.js';
 import ExperienceByTechnology from './components/ExperienceTechnology.js';
 import ThankYouForm from './components/ThankYouForm.js';
+import GrowthPerformanceSection from './components/GrowthPerformanceSection.js';
 
 const LandingPage = () => {
   return (
@@ -51,6 +52,7 @@ const LandingPage = () => {
       </div>
       {/* Why Hire Us Section */}
       <WhyHireUsSection />
+      <GrowthPerformanceSection></GrowthPerformanceSection>
       <ServicesSection />
       <ImageAccordion />
       <ExperienceByTechnology></ExperienceByTechnology>
