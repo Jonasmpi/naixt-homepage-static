@@ -158,7 +158,7 @@ const GrowthPerformanceSection = () => {
                         </div>
                         <div className="order-2 md:order-2">
                             <div className="flex items-center space-x-2 mb-4">
-                                <span className="text-blue-500 font-bold text-lg">Your Strategic Partner in AI Investments</span>
+                                <span className="text-blue-500 font-bold text-lg">Your strategic AI partner</span>
                             </div>
                             <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4">
                                 Navigate AI Partnerships with Confidence
