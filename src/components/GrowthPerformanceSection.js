@@ -34,7 +34,7 @@ const GrowthPerformanceSection = () => {
                 {/* Animated Scroll Bar - Optimized for mobile */}
                 <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 transform -translate-x-1/2">
                     <div
-                        className="absolute w-0.5 bg-blue-500 transition-all duration-500 ease-in-out"
+                        className="absolute w-0.5 bg-[#010C80] transition-all duration-500 ease-in-out"
                         style={{
                             top: '0',
                             height: `${((activeStep - 0.5) / 3) * 100}%`
@@ -43,7 +43,7 @@ const GrowthPerformanceSection = () => {
                     {[1, 2, 3].map((step) => (
                         <div
                             key={step}
-                            className={`absolute w-8 h-8 rounded-full -left-[15px] flex items-center justify-center text-lg font-bold ${activeStep >= step ? 'bg-blue-500 text-white' : 'bg-white text-blue-500 border-2 border-blue-500'
+                            className={`absolute w-8 h-8 rounded-full -left-[15px] flex items-center justify-center text-lg font-bold ${activeStep >= step ? 'bg-[#010C80] text-white' : 'bg-white text-[#010C80] border-2 border-[#010C80]'
                                 }`}
                             style={{ top: `${((step - 0.5) / 3) * 100}%`, transform: 'translateY(-50%)' }}
                         >
@@ -57,7 +57,7 @@ const GrowthPerformanceSection = () => {
                     {[1, 2, 3].map((step) => (
                         <div
                             key={step}
-                            className={`w-8 h-8 mx-2 rounded-full flex items-center justify-center text-lg font-bold ${activeStep >= step ? 'bg-blue-500 text-white' : 'bg-white text-blue-500 border-2 border-blue-500'
+                            className={`w-8 h-8 mx-2 rounded-full flex items-center justify-center text-lg font-bold ${activeStep >= step ? 'bg-[#010C80] text-white' : 'bg-white text-[#010C80] border-2 border-[#010C80]'
                                 }`}
                         >
                             {step}
@@ -158,7 +158,7 @@ const GrowthPerformanceSection = () => {
                         </div>
                         <div className="order-2 md:order-2">
                             <div className="flex items-center space-x-2 mb-4">
-                                <span className="text-blue-500 font-bold text-lg">Your strategic AI partner</span>
+                                <span className="text-blue-500 font-bold text-lg"Your strategic AI partner</span>
                             </div>
                             <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4">
                                 Navigate AI Partnerships with Confidence
