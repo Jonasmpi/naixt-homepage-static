@@ -7,7 +7,7 @@ const ConsultationSection = () => {
 
                 {/* Left Side: Main Content */}
                 <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
-                    <p className="text-sm font-medium text-gray-600">Get in Touch with us</p>
+                    <p className="text-base text-[#010C80] font-semibold tracking-wide uppercase">Get in Touch with us</p>
                     <h2 className="text-4xl font-extrabold text-gray-900 mt-4 leading-tight">
                         Elevate Your AI with Expert Strategy Guidance
                     </h2>
