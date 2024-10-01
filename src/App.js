@@ -10,6 +10,7 @@ import PrivacyPolicy from './components/PrivacyNotice.js';
 import ExperienceByTechnology from './components/ExperienceTechnology.js';
 import ThankYouForm from './components/ThankYouForm.js';
 import GrowthPerformanceSection from './components/GrowthPerformanceSection.js';
+import CallToAction from './components/CallToAction.js';
 
 const LandingPage = () => {
   return (
@@ -53,6 +54,7 @@ const LandingPage = () => {
       {/* Why Hire Us Section */}
       <WhyHireUsSection />
       <GrowthPerformanceSection></GrowthPerformanceSection>
+      <CallToAction></CallToAction>
       <ServicesSection />
       <ImageAccordion />
       <ExperienceByTechnology></ExperienceByTechnology>
