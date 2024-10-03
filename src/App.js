@@ -75,7 +75,7 @@ const App = () => {
             <div className="flex justify-between h-16 items-center">
               <Link to="/" className="flex items-center">
                 <img
-                  src="/assets/naixt_logo_centered.webp"
+                  src="/assets/naixt_logo.webp"
                   alt="nAIxt Technologies Logo"
                   className="h-8"
                 />
@@ -129,7 +129,7 @@ const App = () => {
               {/* Company Info */}
               <div className="flex items-start text-center md:text-left flex-1">
                 <img
-                  src="/assets/naixt_logo_centered.webp"
+                  src="/assets/naixt_logo.webp"
                   alt="nAIxt Technologies Logo"
                   className="h-8 mr-3 mt-5"
                 />
