@@ -30,7 +30,7 @@ const services = [
         details: [
             'Proactive Performance Optimization: Regularly review and refine your AI initiatives to enhance efficiency, effectiveness, and profitability.',
             'Cost-Effective AI Management: Optimize your AI systems to ensure maximum performance while controlling costs, delivering the best value for your investment.',
-            'mpower Your Team: Provide ongoing training and hands-on support to your team, ensuring they are equipped to leverage AI technologies for sustained success.',
+            'Empower Your Team: Provide ongoing training and hands-on support to your team, ensuring they are equipped to leverage AI technologies for sustained success.',
         ],
     },
     {
@@ -57,11 +57,11 @@ const ServicesSection = () => {
         <section id="services" className="py-16 bg-white">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
-                    <h2 className="text-base text-[#010C80] font-semibold tracking-wide uppercase">What we provide</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    <h2 className="text-xl font-semibold text-[#010C80] uppercase">What we provide</h2>
+                    <p className="mt-2 text-3xl sm:text-4xl font-bold text-gray-900">
                         Our Services
                     </p>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    <p className="mt-4 text-lg text-gray-500 max-w-2xl mx-auto">
                         We help Decision Makers efficiently succeed in their AI endeavors.
                     </p>
                 </div>
@@ -70,16 +70,16 @@ const ServicesSection = () => {
                         <div key={index} className="border-t border-gray-300 pt-8">
                             <div className="flex flex-col md:flex-row md:items-start justify-between space-y-4 md:space-y-0">
                                 <div className="md:w-2/3 flex flex-col justify-start">
-                                    <span className="text-sm font-medium text-gray-500">{service.number}</span>
-                                    <h3 className="text-5xl font-light text-[#010C80]">{service.title}</h3>
+                                    <span className="text-lg font-medium text-gray-500">{service.number}</span>
+                                    <h3 className="text-3xl sm:text-4xl font-bold text-[#010C80]">{service.title}</h3>
                                 </div>
                                 <div className="md:w-1/3 flex flex-col items-start justify-start">
-                                    <p className="text-gray-500 text-lg mb-4">
+                                    <p className="text-lg text-gray-500 mb-4">
                                         {service.description}
                                     </p>
                                     <button
                                         onClick={() => handleToggle(index)}
-                                        className="text-[#010C80] flex items-center hover:underline"
+                                        className="text-lg text-[#010C80] flex items-center hover:underline"
                                     >
                                         {openIndex === index ? "Hide details" : "Show details"}
                                         {openIndex === index ? <FaChevronUp className="ml-2" /> : <FaChevronDown className="ml-2" />}
@@ -88,9 +88,9 @@ const ServicesSection = () => {
                             </div>
                             {openIndex === index && (
                                 <div className="mt-8 w-full">
-                                    <ul className="list-disc list-inside text-gray-600 space-y-4">
+                                    <ul className="list-disc list-inside text-lg text-gray-600 space-y-4">
                                         {service.details.map((detail, i) => (
-                                            <li key={i} className="text-lg">
+                                            <li key={i}>
                                                 {detail}
                                             </li>
                                         ))}
@@ -104,7 +104,7 @@ const ServicesSection = () => {
             <div className="mt-12 flex justify-center">
                 <a
                     href="#ContactUs"
-                    className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90 md:py-4 md:text-lg md:px-10"
+                    className="px-8 py-3 text-lg font-medium rounded-md text-white bg-[#010C80] hover:bg-opacity-90"
                 >
                     Get in Touch
                 </a>

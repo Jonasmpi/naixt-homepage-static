@@ -1,83 +1,72 @@
 import React from 'react';
+import { ArrowRight } from 'lucide-react';
 
 const ConsultationSection = () => {
     return (
-        <section id="ContactUs" className="py-16">
+        <section id="ContactUs" className="py-16 bg-white">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-
                 {/* Left Side: Main Content */}
                 <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
-                    <p className="text-base text-[#010C80] font-semibold tracking-wide uppercase">Get in Touch with us</p>
-                    <h2 className="text-4xl font-extrabold text-gray-900 mt-4 leading-tight">
-                        Elevate Your AI with Expert Strategy Guidance
-                    </h2>
-                    <p className="text-lg text-gray-700 mt-4">
-                        Discover how our AI consulting services can drive you and the business forward. Arrange your free initial consultation with one of our AI experts to explore how AI can optimize your strategy, projects, and investments.
+                    <h2 className="text-xl font-semibold text-[#010C80] uppercase mb-2">Get in Touch with us</h2>
+                    <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+                        Elevate Your AI Strategy with Expert Guidance
+                    </h3>
+                    <p className="text-lg text-gray-600 mb-6">
+                        Discover how our AI consulting services can drive your business forward. Schedule a no-obligation consultation with our experts to explore how AI can optimize your strategy, projects, and investments.
                     </p>
-                    <div className="mt-8">
-                        <a
-                            href="https://tally.so/r/nrVM92"
-                            className="inline-block px-8 py-4 font-medium rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-transform transform hover:scale-105 shadow-lg hover:shadow-xl duration-300"
-                        >
-                            Book Your Free Intitial Consultation
-                        </a>
+                    {/* Buttons */}
+                    <div className="flex justify-center md:justify-start mb-6">
+                        <div className="relative inline-block group">
+                            <a
+                                href="#https://tally.so/r/3XBxkj"
+                                className="bg-[#010C80] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 flex items-center space-x-2 text-lg group-hover:pl-16 relative z-10 no-underline"
+                            >
+                                <span>Schedule Your Free Consultation</span>
+                                <ArrowRight className="w-5 h-5 transition-transform duration-300" />
+                            </a>
+                            <span className="absolute inset-0 rounded-full bg-[#010C80] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-right"></span>
+                        </div>
                     </div>
                 </div>
 
                 {/* Right Side: Points and Image */}
-                <div className="md:w-1/2 flex flex-col md:flex-row items-start space-x-6">
+                <div className="md:w-1/2 flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6 w-full">
                     {/* Steps */}
                     <div className="w-full md:w-2/3">
-                        <ol className="space-y-4">
-                            <li className="flex items-start space-x-3">
-                                <div className="text-2xl font-extrabold text-gray-900">1</div>
-                                <div>
-                                    <h4 className="text-lg font-semibold text-gray-900">AI Strategy Consulting</h4>
-                                    <p className="text-sm text-gray-600">Develop an AI roadmap aligned with your business goals and industry trends.</p>
-                                </div>
-                            </li>
-                            <li className="flex items-start space-x-3">
-                                <div className="text-2xl font-extrabold text-gray-900">2</div>
-                                <div>
-                                    <h4 className="text-lg font-semibold text-gray-900">AI Project Leadership</h4>
-                                    <p className="text-sm text-gray-600">From concept to deployment, we guide your AI projects to success.</p>
-                                </div>
-                            </li>
-                            <li className="flex items-start space-x-3">
-                                <div className="text-2xl font-extrabold text-gray-900">3</div>
-                                <div>
-                                    <h4 className="text-lg font-semibold text-gray-900">AI Management Consulting</h4>
-                                    <p className="text-sm text-gray-600">Maximize ROI by implementing continuous AI excellence strategies.</p>
-                                </div>
-                            </li>
-                            <li className="flex items-start space-x-3">
-                                <div className="text-2xl font-extrabold text-gray-900">4</div>
-                                <div>
-                                    <h4 className="text-lg font-semibold text-gray-900">Executive AI Education</h4>
-                                    <p className="text-sm text-gray-600">Tailored programs to empower C-level executives with AI decision-making skills.</p>
-                                </div>
-                            </li>
+                        <ol className="space-y-6">
+                            {[
+                                { title: "AI Strategy Consulting", desc: "Develop an AI roadmap aligned with your business goals and industry trends." },
+                                { title: "AI Project Leadership", desc: "From concept to deployment, we guide your AI projects to success." },
+                                { title: "AI Management Consulting", desc: "Maximize ROI by implementing continuous AI excellence strategies." },
+                                { title: "Executive AI Education", desc: "Tailored programs to empower C-level executives with AI decision-making skills." }
+                            ].map((item, index) => (
+                                <li key={index} className="flex items-start space-x-3">
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#010C80] text-white flex items-center justify-center text-lg font-bold">
+                                        {index + 1}
+                                    </div>
+                                    <div>
+                                        <h4 className="text-xl font-semibold text-gray-900 mb-1">{item.title}</h4>
+                                        <p className="text-lg text-gray-600">{item.desc}</p>
+                                    </div>
+                                </li>
+                            ))}
                         </ol>
                     </div>
 
                     {/* Image */}
-                    <div className="md:w-1/2 relative">
-                        <img
-                            src="assets/profile_picture_ceo-wo_bg.png"
-                            alt="CEO"
-                            className="w-full md:w-96 object-contain"
-                            style={{ zIndex: 10, position: 'relative' }}
-                        />
-                        <div
-                            className="absolute bg-white rounded-full"
-                            style={{
-                                width: '80%',
-                                height: '60%',
-                                bottom: 0,
-                                right: '-10%',
-                                zIndex: 5
-                            }}
-                        />
+                    {/* Image and CEO Info */}
+                    <div className="w-full md:w-1/3 flex flex-col items-center md:items-start">
+                        <div className="w-64 h-64 md:w-full md:h-auto aspect-square relative overflow-hidden ">
+                            <img
+                                src="assets/profile_picture_ceo-wo_bg.png"
+                                alt="Jonas Szalanczi, CEO and Founder"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div className="mt-4 text-center md:text-left w-full">
+                            <h4 className="text-xl font-semibold text-gray-900">Jonas Szalanczi</h4>
+                            <p className="text-lg text-gray-600">CEO and Founder</p>
+                        </div>
                     </div>
                 </div>
             </div>

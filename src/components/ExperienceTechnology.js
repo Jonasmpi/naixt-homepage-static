@@ -37,46 +37,31 @@ const aiApplications = [
 
 const ExperienceByTechnology = () => {
     return (
-        <section id="technology-experience" className="py-16 bg-white">
+        <section id="technology-experience" className="py-16">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-8">
-                    <h2 className="text-base text-[#010C80] font-semibold tracking-wide uppercase">Technologies</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <div className="text-center mb-12">
+                    <h2 className="text-xl font-semibold text-[#010C80] uppercase mb-2">Technologies</h2>
+                    <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
                         Experience by Technology
-                    </p>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        From Computer Vision to MLOps, explore the wide range of technologies we specialize in.
+                    </h3>
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                        From Computer Vision to MLOps, explore the wide range of technologies we specialize in to drive your AI initiatives forward.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                    {aiApplications.slice(0, -1).map((application, index) => (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                    {aiApplications.map((application, index) => (
                         <div
                             key={index}
-                            className="bg-gray-100 rounded-lg shadow p-6 hover:shadow-lg transition-shadow duration-300"
+                            className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
                         >
-                            <h3 className="text-lg font-bold text-gray-900 mb-2 mt-4">
+                            <h4 className="text-xl font-semibold text-[#010C80] mb-3">
                                 {application.title}
-                            </h3>
-                            <p className="text-gray-600 text-base">
+                            </h4>
+                            <p className="text-lg text-gray-600">
                                 {application.description}
                             </p>
                         </div>
                     ))}
-                    <div className="bg-gray-100 rounded-lg shadow p-6 hover:shadow-lg transition-shadow duration-300">
-                        <h3 className="text-lg font-bold text-gray-900 mb-2">
-                            {aiApplications[aiApplications.length - 1].title}
-                        </h3>
-                        <p className="text-gray-600 text-base">
-                            {aiApplications[aiApplications.length - 1].description}
-                        </p>
-                    </div>
-                    <div className="bg-gray-100 rounded-lg shadow overflow-hidden hover:shadow-lg transition-shadow duration-300 lg:col-span-1 lg:h-64">
-                        <img
-                            src="/assets/computer_vision.png"
-                            alt="AI Technologies"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
                 </div>
             </div>
         </section>

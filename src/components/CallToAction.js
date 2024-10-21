@@ -10,10 +10,10 @@ const CallToAction = () => {
                 <div className="flex flex-col md:flex-row items-center md:gap-16">
                     {/* Left column - Text and Form */}
                     <div className="w-full md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
                             Elevate Your Business with Expert AI Consulting
                         </h1>
-                        <p className="text-lg md:text-xl text-gray-600 mb-8">
+                        <p className="text-lg text-gray-600 mb-8">
                             Transform your operations and stay ahead of the competition with tailored AI solutions from nAIxt Technologies. Our team of specialists is ready to help you harness the power of AI to achieve your business goals.
                         </p>
 
@@ -34,7 +34,7 @@ const CallToAction = () => {
                         {/* Features */}
                         <ul className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2">
                             {['Results Driven', 'RoI Focus', 'Executive Tailored'].map((feature, index) => (
-                                <li key={index} className="flex items-center text-gray-700">
+                                <li key={index} className="flex items-center text-lg text-gray-700">
                                     <Check className="w-5 h-5 text-green-500 mr-2" />
                                     <span>{feature}</span>
                                 </li>
