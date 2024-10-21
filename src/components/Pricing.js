@@ -55,17 +55,17 @@ const ConsultationSection = () => {
 
                     {/* Image */}
                     {/* Image and CEO Info */}
-                    <div className="w-full md:w-1/3 flex flex-col items-center md:items-start">
-                        <div className="w-64 h-64 md:w-full md:h-auto aspect-square relative overflow-hidden ">
+                    <div className="w-full md:w-1/3 flex flex-col items-center">
+                        <div className="w-64 h-64 md:w-full md:h-auto aspect-square relative overflow-hidden">
                             <img
                                 src="assets/profile_picture_ceo-wo_bg.png"
                                 alt="Jonas Szalanczi, CEO and Founder"
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <div className="mt-4 text-center md:text-left w-full">
-                            <h4 className="text-xl font-semibold text-gray-900">Jonas Szalanczi</h4>
-                            <p className="text-lg text-gray-600">CEO and Founder</p>
+                        <div className="mt-4 text-center w-full">
+                            <h4 className="text-xl font-semibold text-gray-900 text-center">Jonas Szalanczi</h4>
+                            <p className="text-lg text-gray-600 text-center">CEO and Founder</p>
                         </div>
                     </div>
                 </div>
