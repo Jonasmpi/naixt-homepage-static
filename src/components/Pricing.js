@@ -18,7 +18,7 @@ const ConsultationSection = () => {
                     <div className="flex justify-center md:justify-start mb-6">
                         <div className="relative inline-block group">
                             <a
-                                href="#https://tally.so/r/3XBxkj"
+                                href="https://tally.so/r/3XBxkj"
                                 className="bg-[#010C80] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 flex items-center space-x-2 text-lg group-hover:pl-16 relative z-10 no-underline"
                             >
                                 <span>Schedule Your Free Consultation</span>
